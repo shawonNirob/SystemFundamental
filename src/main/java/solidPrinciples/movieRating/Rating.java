@@ -3,9 +3,9 @@ package solidPrinciples.movieRating;
 public class Rating {
     private String userId;
     private String movieId;
-    private String rating;
+    private int rating;
 
-    public Rating(String userId, String movieId, String rating) {
+    public Rating(String userId, String movieId, int rating) {
         this.userId = userId;
         this.movieId = movieId;
         this.rating = rating;
@@ -16,7 +16,7 @@ public class Rating {
     public String getMovieId() {
         return movieId;
     }
-    public String getRating() {
+    public int getRating() {
         return rating;
     }
 }
