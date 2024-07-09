@@ -18,4 +18,30 @@ public class DefaultReviewService implements ReviewService {
         String reviewKey = userId + "-" + movieId;
         return reviews.get(reviewKey);
     }
+
+    @Override
+    public void updateReview(String userId, String movieId, String reviewText) {
+        String reviewKey = userId + "-" + movieId;
+        Review review = reviews.get(reviewKey);
+        if (review != null) {
+            review.setReviewText(reviewText);
+        }
+    }
+
+    /*
+    @Override
+    public void updateReview(String userId, String movieId, String reviewText) {
+        String reviewKey = userId + "-" + movieId;
+        Review review = new Review(userId, movieId, reviewText);
+        if (reviews.containsKey(reviewKey)) {
+            reviews.put(reviewKey, review);
+        }
+    }
+
+     */
+    @Override
+    public void deleteReview(String userId, String movieId) {
+        String reviewKey = userId + "-" + movieId;
+        reviews.remove(reviewKey);
+    }
 }

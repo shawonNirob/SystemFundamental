@@ -2,6 +2,8 @@ package solidPrinciples.movieRating;
 
 import solidPrinciples.emailLogin.*;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         //User related service
@@ -50,6 +52,30 @@ public class Main {
 
             Review review  = reviewService.getReview("Nirob1@gmail.com", "1");
             System.out.println("The review is: " + review.getReviewText());
+
+            //update movie
+            movie1.setTitle("The Matrix Reloader");
+            movieService.updateMovie(movie1);
+
+            ratingService.updateRating("Nirob1@gmail.com", "1", 2);
+
+            reviewService.updateReview("Nirob1@gmail.com", "1", "Bad movie");
+
+            //display
+            System.out.println("The update rating is: " + ratingService.getAverageRating("1"));
+            System.out.println("The update review is: " + reviewService.getReview("Nirob1@gmail.com", "1").getReviewText());
+
+
+            //delete
+            movieService.deleteMovie("1");
+            reviewService.deleteReview("Nirob1@gmail.com", "1");
+            ratingService.deleteRating("Nirob1@gmail.com", "1");
+
+            //Show the existing movie
+            List<Movie> movies = movieService.getAllMovies();
+            for (Movie movie : movies) {
+                System.out.println("Movie: " + movie.getTitle());
+            }
         }
     }
 }

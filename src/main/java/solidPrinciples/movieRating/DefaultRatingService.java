@@ -25,4 +25,26 @@ public class DefaultRatingService implements RatingService {
 
         return count == 0 ? 0 : (double) sum / count;
     }
+
+    @Override
+    public void updateRating(String userId, String movieId, int rating) {
+        String ratingKey = movieId + "-" + userId;
+        Rating existingRating = ratings.get(ratingKey);
+        if (existingRating != null) {
+            int oldRating = existingRating.getRating();
+            existingRating.setRating(rating);
+            ratingSum.put(movieId, ratingSum.get(movieId) - oldRating + rating);
+        }
+    }
+
+    @Override
+    public void deleteRating(String userId, String movieId) {
+        String ratingKey = movieId + "-" + userId;
+        Rating exixtingRating = ratings.remove(ratingKey);
+        if (exixtingRating != null) {
+            int rating = exixtingRating.getRating();
+            ratingCount.put(movieId, ratingCount.get(movieId) - 1);
+            ratingSum.put(movieId, ratingSum.get(movieId) - rating);
+        }
+    }
 }

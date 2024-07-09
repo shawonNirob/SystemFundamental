@@ -6,8 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ad0c570d-b0af-4ed4-8d6a-d12f045c7ee7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultReviewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/MovieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/rateMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/RatingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/RatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/RatingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/ReviewService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,21 +64,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.SystemFundamental [:Main.main()].executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/shawon/Code/Project/SystemFundamental",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.SystemFundamental [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/shawon/Code/Project/SystemFundamental&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="solidPrinciples.movieRating" />
@@ -117,75 +125,15 @@
       <workItem from="1720090825081" duration="7711000" />
       <workItem from="1720158366429" duration="2457000" />
       <workItem from="1720291611447" duration="4674000" />
-      <workItem from="1720331768761" duration="6261000" />
+      <workItem from="1720331768761" duration="10217000" />
+      <workItem from="1720421802542" duration="3701000" />
+      <workItem from="1720453949376" duration="112000" />
+      <workItem from="1720454155932" duration="5169000" />
+      <workItem from="1720514628217" duration="1619000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Main.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Main.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/Main.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java</url>
-          <line>6</line>
-          <properties field="ratings" class="solidPrinciples.movieRating.DefaultRatingService" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java</url>
-          <line>7</line>
-          <properties field="ratingCount" class="solidPrinciples.movieRating.DefaultRatingService" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/solidPrinciples/movieRating/DefaultRatingService.java</url>
-          <line>8</line>
-          <properties field="ratingSum" class="solidPrinciples.movieRating.DefaultRatingService" />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

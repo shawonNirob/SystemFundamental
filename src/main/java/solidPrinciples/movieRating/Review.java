@@ -20,4 +20,7 @@ public class Review {
     public String getReviewText() {
         return reviewText;
     }
+    public void setReviewText(String reviewText) {
+        this.reviewText = reviewText;
+    }
 }
